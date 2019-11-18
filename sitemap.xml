@@ -3,52 +3,52 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/tags/matplotlib/</loc>
+    <lastmod>2019-11-18T21:24:46+05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2019-11-18T21:24:46+05:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/</loc>
     <lastmod>2019-11-18T21:24:46+05:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/tags/matplotlib/</loc>
+    <loc>/tags/python/</loc>
     <lastmod>2019-11-18T21:24:46+05:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/posts/</loc>
+    <loc>/tags/space/</loc>
     <lastmod>2019-11-18T21:24:46+05:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/tags/python/</loc>
+    <loc>/tags/spacefield/</loc>
     <lastmod>2019-11-18T21:24:46+05:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/tags/space/</loc>
+    <loc>/tags/</loc>
     <lastmod>2019-11-18T21:24:46+05:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/tags/spacefield/</loc>
+    <loc>/posts/international-space-station/</loc>
     <lastmod>2019-11-18T21:24:46+05:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/tags/</loc>
-    <lastmod>2019-11-18T21:24:46+05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/posts/international-space-station/</loc>
-    <lastmod>2019-11-18T21:24:46+05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/about/</loc>
+    <loc>/about/</loc>
     <lastmod>2014-04-09T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/posts/categories/</loc>
+    <loc>/categories/</loc>
   </url>
   
 </urlset>
