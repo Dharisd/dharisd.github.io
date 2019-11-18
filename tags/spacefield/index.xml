@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>spacefield on cd /home/</title>
+    <link>/posts/tags/spacefield/</link>
+    <description>Recent content in spacefield on cd /home/</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 18 Nov 2019 21:24:46 +0500</lastBuildDate>
+    
+	<atom:link href="/posts/tags/spacefield/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>When can I see the International space station?</title>
+      <link>/posts/posts/international-space-station/</link>
+      <pubDate>Mon, 18 Nov 2019 21:24:46 +0500</pubDate>
+      
+      <guid>/posts/posts/international-space-station/</guid>
+      <description>The ISS orbits the earth aproximately 16 times per day. This means that if you look at the sky at the right time you can see it as a bright star moving fast across the horizion
+I looked at apps that would remind me when iss passes visible over me but found none that did the job well enough. So i set out to build my own tool that will show when i should look up</description>
+    </item>
+    
+  </channel>
+</rss>

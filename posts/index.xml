@@ -1,0 +1,116 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on cd /home/</title>
+        <link>/posts/posts/</link>
+        <description>Recent content in Posts on cd /home/</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <lastBuildDate>Mon, 18 Nov 2019 21:24:46 +0500</lastBuildDate>
+        <atom:link href="/posts/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>When can I see the International space station?</title>
+            <link>/posts/posts/international-space-station/</link>
+            <pubDate>Mon, 18 Nov 2019 21:24:46 +0500</pubDate>
+            
+            <guid>/posts/posts/international-space-station/</guid>
+            <description>The ISS orbits the earth aproximately 16 times per day. This means that if you look at the sky at the right time you can see it as a bright star moving fast across the horizion
+I looked at apps that would remind me when iss passes visible over me but found none that did the job well enough. So i set out to build my own tool that will show when i should look up</description>
+            <content type="html"><![CDATA[
+
+<p><img src="https://raw.githubusercontent.com/Dharisd/iss_bot/master/demo.jpg" alt="demo photo" /></p>
+
+<p>The ISS orbits the earth aproximately 16 times per day. This means that if you look at the sky at the right time you can see it as a bright star moving fast across the horizion</p>
+
+<p>I looked at apps that would remind me when iss passes visible over me but found none that did the job well enough. So i set out to build my own tool that will show when i should look up</p>
+
+<h3 id="iss-bot">ISS bot</h3>
+
+<p><img src="https://raw.githubusercontent.com/Dharisd/iss_bot/master/channel.jpg" alt="channel photo" /></p>
+
+<p>Each day,the bot checks whether there are any visible passes if so texts to the <a href="https://t.me/iss_noti">telegram channel</a>.</p>
+
+<p>The source code for it is available <a href="https://github.com/Dharisd/iss_bot">here</a></p>
+
+<h2 id="how-it-works">How it works</h2>
+
+<p>Part of the main function which does calculations</p>
+
+<pre><code class="language-python">    stations_url = 'http://celestrak.com/NORAD/elements/stations.txt'
+    satellites = load.tle(stations_url)
+    satellite = satellites['ISS (ZARYA)']
+
+    #get values for time,we only search for times in which passes would be visible morning and dusk
+    #this is due to the sunsbrightness and lackof light to be reflected
+    minutes1 = range(240,1440) # 4 to 7
+    minutes2 = range(1050,1170) # 1530 to 1930
+
+    minutes = minutes1 #+ list(minutes2)
+
+    minutes = range(start,end)
+    ts = load.timescale()
+    t = ts.utc(dt.year, dt.month, dt.day, -5, minutes)
+
+
+     #pedict according to time
+    loc = Topos(cords[0], cords[1])
+    difference = (satellite - loc).at(t)
+    alt, az, distance = difference.altaz()
+
+    #Get times itsabove horizon
+    above_horizon = alt.degrees &gt; 0
+    
+</code></pre>
+
+<h3 id="on-a-high-level-the-script-uses-python-spacefield-to">On a high level the script uses python spacefield to</h3>
+
+<ul>
+<li><p>fetch tles from celestrak</p>
+
+<pre><code class="language-python">stations_url = 'http://celestrak.com/NORAD/elements/stations.txt'
+satellites = load.tle(stations_url)
+satellite = satellites['ISS (ZARYA)']
+</code></pre></li>
+
+<li><p>calculate the  altiutude , azimuth and distance between the input location and the ISS for the given time range t.(The values of minutes1 and 2 are the ranges of time at which light&rsquo;ll reflect of the ISS)</p>
+
+<pre><code class="language-python">#get values for time,we only search for times in which passes would be visible morning and dusk
+#this is due to the sunsbrightness and lackof light to be reflected
+minutes1 = range(240,1440) # 4 to 7
+minutes2 = range(1050,1170) # 1530 to 1930
+
+minutes = minutes1 #+ list(minutes2)
+
+minutes = range(start,end)
+ts = load.timescale()
+t = ts.utc(dt.year, dt.month, dt.day, -5, minutes)
+
+
+ #pedict according to time
+loc = Topos(cords[0], cords[1])
+difference = (satellite - loc).at(t)
+alt, az, distance = difference.altaz()
+</code></pre></li>
+
+<li><p>Finds the values of t at which ISS has a positive altitude</p>
+
+<pre><code class="language-python">#Get times itsabove horizon
+above_horizon = alt.degrees &gt; 0
+
+above_horizon[-1] = 0
+above_horizon[0] = 0
+#above_horizon = insert(above_horizon,-1,0)
+
+
+
+
+#boundaries by setsand rising time
+boundaries, = diff(above_horizon).nonzero()
+    
+</code></pre></li>
+</ul>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>/posts/</loc>
+    <lastmod>2019-11-18T21:24:46+05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/tags/matplotlib/</loc>
+    <lastmod>2019-11-18T21:24:46+05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/posts/</loc>
+    <lastmod>2019-11-18T21:24:46+05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/tags/python/</loc>
+    <lastmod>2019-11-18T21:24:46+05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/tags/space/</loc>
+    <lastmod>2019-11-18T21:24:46+05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/tags/spacefield/</loc>
+    <lastmod>2019-11-18T21:24:46+05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/tags/</loc>
+    <lastmod>2019-11-18T21:24:46+05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/posts/international-space-station/</loc>
+    <lastmod>2019-11-18T21:24:46+05:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/about/</loc>
+    <lastmod>2014-04-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/categories/</loc>
+  </url>
+  
+</urlset>
