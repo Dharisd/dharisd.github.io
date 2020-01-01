@@ -21,5 +21,14 @@
 I looked at apps that would remind me when iss passes visible over me but found none that did the job well enough. So i set out to build my own tool that will show when i should look up</description>
     </item>
     
+    <item>
+      <title>Automating the boring stuff: past papers</title>
+      <link>/posts/ppbot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/ppbot/</guid>
+      <description>While i was studying for A levels. I found out i was spending a lot of time searching for and downloading past papers. Since the sites that offered these files were clumsy had not so great ux. Finding a single past past paper required you to naviagte to at least three pages. The final page being an index of all past papers for that particular subject. so like any sane person I went on and created pastpaper bot aka ppbot.</description>
+    </item>
+    
   </channel>
 </rss>

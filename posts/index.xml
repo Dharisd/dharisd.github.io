@@ -112,5 +112,43 @@ boundaries, = diff(above_horizon).nonzero()
 ]]></content>
         </item>
         
+        <item>
+            <title>Automating the boring stuff: past papers</title>
+            <link>/posts/ppbot/</link>
+            <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+            
+            <guid>/posts/ppbot/</guid>
+            <description>While i was studying for A levels. I found out i was spending a lot of time searching for and downloading past papers. Since the sites that offered these files were clumsy had not so great ux. Finding a single past past paper required you to naviagte to at least three pages. The final page being an index of all past papers for that particular subject. so like any sane person I went on and created pastpaper bot aka ppbot.</description>
+            <content type="html"><![CDATA[
+
+<p>While i was studying for A levels. I found out i was spending a lot of time searching for and downloading past papers. Since the sites that offered these files were clumsy had not so great ux. Finding a single past past paper required you to naviagte to at least three pages. The final page being an index of all past papers for that particular subject. so like any sane person I went on and created <a href="https://t.me/pastpaper_bot">pastpaper bot</a> aka ppbot. Which quite a few students found useful</p>
+
+<p><img src="../ppbot.jpg" width="400"></p>
+
+<p>ppbot is simple and asks you only what you need and sends the pdfs for pastpapers</p>
+
+<p>source code for ppbot is available <a href="https://github.com/Dharisd/pastpaper-bot">here</a></p>
+
+<h2 id="how-it-works">How it works?</h2>
+
+<p>I found out that the pastpaper sites are like huge indexes containing files which are named to a standard convenient format.
+i used this to my advantage an wrote a quick scraper. The final scraper takes works like this</p>
+
+<p><code>scrp.py --url https://www.physicsandmathstutor.com/past-papers/a-level-physics/edexcel-unit-2/</code></p>
+
+<p>The scraper identifies the subject and unit of the past paper and stores all entries on the url to a mongodb db . Another script then downloads these pdfs and makes them available locally</p>
+
+<h2 id="the-telegram-bot">The telegram bot</h2>
+
+<p>Making the telegram bot was quite straight forward i just had to get enough data from the user and call the db to get the files. I used the python telegram bot package to easily interact with telegram.</p>
+
+<h2 id="support">support</h2>
+
+<p>I didnt expect much if any users to actually use it other than me. But by the time the exams ended the bot had served more than 2000 pastpapers to more than 50 unique students.</p>
+
+<p><em>insert statistics</em></p>
+]]></content>
+        </item>
+        
     </channel>
 </rss>

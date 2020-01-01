@@ -48,7 +48,19 @@
   </url>
   
   <url>
+    <loc>/posts/ppbot/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/automation/</loc>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/mongodb/</loc>
   </url>
   
 </urlset>
