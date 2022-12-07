@@ -32,7 +32,7 @@ This could technically be acheived through
 * Frontend to do cool visuals
 
 Final dashboard
-![web-dashboard](https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/images/Screenshot%202022-11-14%20at%2000.30.58.png)
+![web-dashboard](https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/images/Screenshot%202022-12-07%20at%2010.23.37.png)
 
 ## But how ?
 
