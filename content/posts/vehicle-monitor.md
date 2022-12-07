@@ -83,7 +83,7 @@ def worker():
 	while True:
 
 		data = q.get()
-		requests.post("http://178.128.28.91:8000/store-pass", json=data)
+		requests.post(f"http://{backend_url}/store-pass", json=data)
 		print(f'Working on {data}')
 		print(f'Finished {data}')
 		q.task_done()
