@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on dharisd&#39;s blog</title>
+    <link>https://dharisd.github.io/posts/</link>
+    <description>Recent content in Posts on dharisd&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© Dharis</copyright>
+    <lastBuildDate>Tue, 29 Nov 2022 11:26:00 +0500</lastBuildDate><atom:link href="https://dharisd.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Real-time Vehicle Detection and Speed Estimation using YOLO and Deepsort</title>
+      <link>https://dharisd.github.io/posts/vehicle-monitor/</link>
+      <pubDate>Tue, 29 Nov 2022 11:26:00 +0500</pubDate>
+      
+      <guid>https://dharisd.github.io/posts/vehicle-monitor/</guid>
+      <description>Having a good view of the road infront and extra android phone laying around
+I wondered
+can i log very passing vehicle? can i get their types (car,motorbike,truck)? can i get their speed? can i visualize how busy the and generate live reports based on the logged data? if so that would look darn cool
+![[Screenshot 2022-11-14 at 00.30.58.png]]
+This could technically be acheived through
+live stream of the road server to process the stream and run object detection and tracking backend to save the data Frontend to do cool visuals But how ?</description>
+    </item>
+    
+  </channel>
+</rss>
