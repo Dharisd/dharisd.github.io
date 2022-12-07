@@ -32,7 +32,7 @@ This could technically be acheived through
 * Frontend to do cool visuals
 
 Final dashboard
-![web-dashboard](https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/images/Screenshot%202022-12-07%20at%2010.23.37.png)
+![web-dashboard](https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/images/Screenshot%202022-11-14%20at%2000.30.58.png)
 
 ## But how ?
 
@@ -59,8 +59,8 @@ Enter [Deepsort](https://arxiv.org/abs/1703.07402). Deepsort allows to track det
 
 Fortunately [this]([https://github.com/HowieMa/DeepSORT_YOLOv5_Pytorch]) exists, i just had to make a few modifications to make it spit out the tracks of vehicles right before it gets deleted
 
-blog_v3/assets/images/Screenshot 2022-12-07 at 10.23.37.png
-![Deepsort-runnnig](https://github.com/Dharisd/dharisd.github.io/blob/main/assets/images/Screenshot%202022-12-07%20at%2010.23.37.png)
+
+![Deepsort-runnnig](https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/images/Screenshot%202022-12-07%20at%2010.23.37.png)
 
 **Easy and done right? nope**
 
