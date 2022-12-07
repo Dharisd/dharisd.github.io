@@ -23,7 +23,7 @@ can i visualize how busy the
 
 and generate live reports based on the logged data? if so that would look darn cool
 
-![[Screenshot 2022-11-14 at 00.30.58.png]]
+![web-dashboard]](https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/images/Screenshot%202022-11-14%20at%2000.30.58.png)
 
 This could technically be acheived through
 
