@@ -23,7 +23,6 @@ can i visualize how busy the
 
 and generate live reports based on the logged data? if so that would look darn cool
 
-![web-dashboard](https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/images/Screenshot%202022-11-14%20at%2000.30.58.png)
 
 This could technically be acheived through
 
@@ -32,6 +31,8 @@ This could technically be acheived through
 * backend to save the data
 * Frontend to do cool visuals
 
+Final dashboard
+![web-dashboard](https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/images/Screenshot%202022-11-14%20at%2000.30.58.png)
 
 ## But how ?
 
@@ -59,6 +60,7 @@ Enter [Deepsort](https://arxiv.org/abs/1703.07402). Deepsort allows to track det
 Fortunately [this]([https://github.com/HowieMa/DeepSORT_YOLOv5_Pytorch]) exists, i just had to make a few modifications to make it spit out the tracks of vehicles right before it gets deleted
 
 blog_v3/assets/images/Screenshot 2022-12-07 at 10.23.37.png
+![Deepsort-runnnig](https://github.com/Dharisd/dharisd.github.io/blob/main/assets/images/Screenshot%202022-12-07%20at%2010.23.37.png)
 
 **Easy and done right? nope**
 
