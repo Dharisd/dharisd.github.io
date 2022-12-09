@@ -33,11 +33,11 @@ url = "https://twitter.com/dharissss/"
 
 [[menu.main]]
 name = "Home"
-url = "/"
+url = "/posts"
 weight = 1
 
 [[menu.main]]
-name = "All posts"
+name = "posts"
 url = "/posts"
 weight = 2
 
@@ -46,7 +46,3 @@ name = "About"
 url = "/about"
 weight = 3
 
-[[menu.main]]
-name = "Tags"
-url = "/tags"
-weight = 4
