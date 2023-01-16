@@ -7,7 +7,7 @@ draft: false
 
 #### New features added 
 
-![web-dashboard](https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/images/part_two.png)
+![web-dashboard](https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/images/part_two_min.png)
 * pushing image detections to db 
 
 #### How?
