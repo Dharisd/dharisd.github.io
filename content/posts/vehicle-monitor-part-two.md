@@ -48,3 +48,9 @@ to make the dashboard loads faster, Since only the Detailed Detection page only 
         else:
             pass_output = list(db["vehiclepasses"].find({},{"img_data":0},limit=50).sort("timestamp",-1))
 ```
+
+### Code
+
+Modified :HowieMa/DeepSORT_YOLOv5_Pytorch": https://github.com/Dharisd/DeepSORT_YOLOv5_Pytorch
+
+Backend API: https://github.com/Dharisd/logging-api

@@ -116,6 +116,13 @@ Backend is quite simple and is bulit using FastAPI and mongoDB to save data
 For frontend i just modified [this very cool dashboard](https://github.com/themesberg/tailwind-dashboard-windster/) and just added the relevent fields, and some simple JS for fetching (needs improvement).
 
 
+### Code
+
+Modified :HowieMa/DeepSORT_YOLOv5_Pytorch": https://github.com/Dharisd/DeepSORT_YOLOv5_Pytorch
+
+Backend API: https://github.com/Dharisd/logging-api
+
+
 
 
 
