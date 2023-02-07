@@ -36,7 +36,7 @@ The Common Voice dataset isnt and wasnt meant to be used for Text to speech purp
 
 Although most sound like this I noticed that some speakers infact actually have recorded with good setups and put care into sounding the best they can 
 
-I isolated the best sounding speakers with the most audio (5 of them) each with atleast 3 hoiurs of audio to seperate dataset and then used this for training, This dataset was about x hours long 
+I isolated the best sounding speakers with the most audio (5 of them) each with atleast 3 hours of audio to seperate dataset and then used this for training, This dataset was about x hours long 
 
 ```python
 #the client_id for the 5 speakers which sounded the best to me and had enough data
@@ -52,6 +52,7 @@ speakers = ["MCV_d0c4ff6121bfdbbf162900de8e68c2f5ea1e1d08391e4928e9f2febf82869a5
 
 **Dataset done right?**
 Just set Common voice as formatter and we move right? right?
+
 ```python
 dataset_config = BaseDatasetConfig(
 formatter="common_voice", meta_file_train="phonemise_fixed.tsv", path=os.path.join(output_path, "dv_filtered/")
@@ -59,7 +60,7 @@ formatter="common_voice", meta_file_train="phonemise_fixed.tsv", path=os.path.jo
 ```
 
 **NO** 
-This just hanged infinetly when i tried setting up the Trainer
+This just hanged infinitely when i tried setting up the Trainer
 **but why?**
 Turns out the formatter wasnt updated for the latest dataset format and was hanging due to an infinite loop
 
@@ -75,8 +76,11 @@ Initially I trained from scratch but the performance at 20k steps was literally 
 
 so I decided to pull my favoruite trick, finetune on top of an english model 
 
-**just pull out the model** 
-```tts --model_name tts_models/en/vctk/vits --text "this should be the epitome" --speaker_idx "p341"```
+**Just pull out the model** 
+
+```bash 
+tts --model_name tts_models/en/vctk/vits --text "this should be the epitome" --speaker_idx "p341"
+```
 
 **copy to good location**
 
