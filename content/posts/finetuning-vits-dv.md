@@ -97,7 +97,8 @@ yes , now we train,
 ![[walter]](https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/images/hard.jpeg)
 At around 40k steps we have usable results
 
-![voice_one](https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_0.wav)
+(https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_0.wav)
+
 ![voice_two](https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_1.wav)
 ![voice_three](https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_2.wav)
 ![voice_four](https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_3.wav)
