@@ -100,7 +100,9 @@ yes , now we train,
 *LET IT COOK*
 
 At around 40k steps we have usable results, Here are outputs for each of the five voices
+for the text 
 
+"މީތި މިހާރު މިދަނީ ވަރަށް ވެސް ހާޑު ކޮށް ހެން މަށަށް ހީވެ"
 
 {{<audio src="https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_0.wav" caption="voice sample one" >}}
 
