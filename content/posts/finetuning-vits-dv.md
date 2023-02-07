@@ -95,13 +95,20 @@ yes , now we train,
 
 *LET IT COOK*
 ![[walter]](https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/images/hard.jpeg)
-At around 40k steps we have usable results
+At around 40k steps we have usable results, Here are outputs for each of the five voices
 
-![](https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_0.wav)
-![](https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_1.wav)
-![](https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_2.wav)
-![](https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_3.wav)
-![](https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_4.wav)
+{{<audio src="https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_0.wav" caption="voice sample one" >}}
+
+{{<audio src="https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_1.wav" caption="voice sample two" >}}
+
+{{<audio src="https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_2.wav" caption="voice sample three" >}}
+
+{{<audio src="https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_3.wav" caption="voice sample four" >}}
+
+{{<audio src="https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_3.wav" caption="voice sample five" >}}
+
+
+
 
 ## How do i generate my own audio?
 
