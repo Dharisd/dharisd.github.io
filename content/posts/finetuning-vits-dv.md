@@ -104,6 +104,7 @@ for the text
 
 "މީތި މިހާރު މިދަނީ ވަރަށް ވެސް ހާޑު ކޮށް ހެން މަށަށް ހީވެ"
 
+
 {{<audio src="https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_0.wav" caption="voice sample one" >}}
 
 {{<audio src="https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_1.wav" caption="voice sample two" >}}
