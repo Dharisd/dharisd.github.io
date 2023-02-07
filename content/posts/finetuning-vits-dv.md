@@ -14,13 +14,13 @@ The model we are gonna be training the is the VITS implementaion from [coqui](ht
 
 VITS (Conditional Variational Autoencoder with Adversarial Learning for End-to-End Text-to-Speech) is a autoregressive end to end model, while most other architectures such as tacotron rely on a two-stage method where a mel spectogram is first generated, which is then converted to speech using a vocoder , VITS uses a single model architecture which takes in text and returns the raw audio waveforms. 
 
-* **Single model architecture**
+**Single model architecture**
 The model does not need to generate immediate representations and then load them again to another model for inference, this geatly reduces full end to end inference speed, this also helps to make deploynet easier
 
-* **Multispeaker Support**
+**Multispeaker Support**
 Supports training and infernce of audio for multi speakers from a single model throigh speaker embeddings.
 
-* **Tooling**
+**Tooling**
 [Coqui/TTS](https://github.com/coqui-ai/TTS) have done an absolutely amazing job, developing the tooling and the tools to train TTS models
  
 
