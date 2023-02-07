@@ -70,12 +70,8 @@ after I fixed this bug , dataset was done
 
 Initially I trained from scratch but the performance at 20k steps was literally this 
 
-<figure >
-  <audio controls preload="metadata">
-    <source src="https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/initial.wav" type="audio/wav">
-  </audio>
-  <figcaption>sample one</figcaption>
-</figure>
+
+{{<audio src="https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/initial.wav" caption="intially sounded like this" >}}
 
 so I decided to pull my favoruite trick, finetune on top of an english model 
 
@@ -98,47 +94,24 @@ python train.py --restore_path "~/tts/vctk_model.pth" --config_path "path_to_you
 
 yes , now we train, 
 
-![[walter]](https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/images/hard.jpeg)
-
 *LET IT COOK*
-
+![[walter]](https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/images/hard.jpeg)
 At around 40k steps we have usable results, Here are outputs for each of the five voices
 
-<figure >
-  <audio controls preload="metadata">
-    <source src="https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_0.wav" type="audio/wav">
-  </audio>
-  <figcaption>sample one</figcaption>
-</figure>
-
-<figure >
-  <audio controls preload="metadata">
-    <source src="https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_1.wav" type="audio/wav">
-  </audio>
-  <figcaption>sample two</figcaption>
-</figure>
-
-<figure >
-  <audio controls preload="metadata">
-    <source src="https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_2.wav" type="audio/wav">
-  </audio>
-  <figcaption>sample three</figcaption>
-</figure>
-
-<figure >
-  <audio controls preload="metadata">
-    <source src="https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_3.wav" type="audio/wav">
-  </audio>
-  <figcaption>sample four</figcaption>
-</figure>
 
 
-<figure >
-  <audio controls preload="metadata">
-    <source src="https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_4.wav" type="audio/wav">
-  </audio>
-  <figcaption>sample five</figcaption>
-</figure>
+{{<audio src="https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_0.wav" caption="voice sample one" >}}
+
+{{<audio src="https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_1.wav" caption="voice sample two" >}}
+
+{{<audio src="https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_2.wav" caption="voice sample three" >}}
+
+{{<audio src="https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_3.wav" caption="voice sample four" >}}
+
+{{<audio src="https://raw.githubusercontent.com/Dharisd/dharisd.github.io/main/assets/audio/madness_3.wav" caption="voice sample five" >}}
+
+
+
 
 ## How do i generate my own audio?
 
